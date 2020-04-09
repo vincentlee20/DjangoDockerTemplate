@@ -10,8 +10,9 @@ To Build the Docker Image
 docker build --tag myweb:latest .
 
 
-
-
 To run the Docker Image
 
-docker run --publish 8000:8080 --detach --myweb bb myweb:1.0
+docker run --publish 8000:8000 --detach --myweb bb myweb:1.0
+
+To test the Web
+<IP address>:8000
