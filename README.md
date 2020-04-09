@@ -5,14 +5,15 @@ This is a simple Django Hello World Application. After git clone from this websi
 You can also add more apps to the application. However, you may need to further update the files for any additional dependency.
 
 
-To Build the Docker Image
+<b>To Build the Docker Image</b>
 
 docker build --tag myweb:latest .
 
 
-To run the Docker Image
+<b>To run the Docker Image</b>
 
 docker run --publish 8000:8000 --detach --myweb bb myweb:1.0
 
-To test the Web
-<IP address>:8000
+<b>To test the Web</b>
+
+input <i>"IP address:8000"</i> in the browser
