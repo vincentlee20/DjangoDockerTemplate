@@ -12,7 +12,7 @@ docker build --tag myweb:latest .
 
 <b>To run the Docker Image</b>
 
-docker run --publish 8000:8000 --detach --myweb bb myweb:1.0
+docker run --publish 8000:8000 --detach --name bb myweb:1.0
 
 <b>To test the Web</b>
 
