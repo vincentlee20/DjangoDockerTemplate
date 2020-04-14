@@ -10,20 +10,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <title>Django Template</title>
 </head>
 
 <body>
- 
+
+  <h1 align="center"> This is a Django Template </h1>
+  <h2 align="center">You can start with this page for web development </h2>
 
   <div class=container>
     <form action="/process" method="POST">
       {% csrf_token %}
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Your Name</label>
+        <label for="exampleFormControlTextarea1">
+          Your Name: (input below will become CAPITAL letter)
+        </label>
         <textarea class="form-control" id="text" rows="3" name="text"
           style="margin-top: 0px; margin-bottom: 0px; height: 329px;" spellcheck="false"></textarea>
-       
+
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
