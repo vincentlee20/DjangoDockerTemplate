@@ -1,4 +1,4 @@
-# Django Template
+# Django Docker Template
 
 This is a simple Django Hello World Application. After git clone from this website, you can build the docker image and run the container using the below command. Dockerfile and requirement.txt are also ready. 
 
